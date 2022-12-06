@@ -5,7 +5,7 @@ import "testing"
 func TestPartOne(t *testing.T) {
 	lines, _ := LoadLines("test.txt")
 
-	expected := -1
+	expected := 7
 	got := PartOne(lines)
 	if got != expected {
 		t.Errorf("Part one failed, got %v, expected %v", got, expected)
@@ -15,7 +15,7 @@ func TestPartOne(t *testing.T) {
 func TestPartTwo(t *testing.T) {
 	lines, _ := LoadLines("test.txt")
 
-	expected := -1
+	expected := 19
 	got := PartTwo(lines)
 	if got != expected {
 		t.Errorf("Test failed, got %v, expected %v", got, expected)
