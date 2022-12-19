@@ -15,7 +15,7 @@ func TestPartOne(t *testing.T) {
 func TestPartTwo(t *testing.T) {
 	lines, _ := LoadLines("test.txt")
 
-	expected := -1
+	expected := 58
 	got := PartTwo(lines)
 	if got != expected {
 		t.Errorf("Test failed, got %v, expected %v", got, expected)
